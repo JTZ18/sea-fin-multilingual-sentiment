@@ -72,41 +72,19 @@ The end-to-end pipeline consists of the following major stages:
 
 ## Setup and Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd <repository-name>
-    ```
-
-2.  **Create a Python virtual environment (recommended):**
+1.  **Create a Python virtual environment (recommended):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 
-3.  **Install dependencies:**
+2.  **Install dependencies:**
     Ensure you have PyTorch installed with CUDA support if using a GPU. Then install other requirements:
     ```bash
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu<your_cuda_version> # e.g., cu118 or cu121
     pip install -r requirements.txt
     ```
-    A `requirements.txt` would typically include:
-    ```
-    transformers>=4.38.0
-    unsloth[cu121-ampere-torch210]>=2024.5 # Adjust cuXXX and torchXXX based on your setup
-    datasets>=2.14.0
-    peft>=0.10.0
-    trl>=0.8.0
-    accelerate>=0.29.0
-    wandb>=0.16.0
-    pandas>=1.5.0
-    scikit-learn>=1.2.0
-    ipykernel # For running EDA.ipynb
-    # Add any other specific versions if necessary
-    ```
-    *Note: For Unsloth, follow their specific installation instructions for your CUDA/PyTorch version for optimal performance.*
-
-4.  **Login to Services:**
+    
+3.  **Login to Services:**
     *   **Weights & Biases:**
         ```bash
         wandb login
