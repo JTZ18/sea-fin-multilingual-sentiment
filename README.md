@@ -72,7 +72,7 @@ The end-to-end pipeline consists of the following major stages:
 
 ## Setup and Installation
 
-1.  **Create a Python virtual environment (recommended):**
+1.  **Create a Python 3.12 virtual environment (recommended):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
