@@ -146,7 +146,7 @@ Execute the scripts in the following order (note that the `task.ipynb` called th
     *   **English Accuracy:** Fine-tuned `0.804` vs. Baseline `0.538`.
     *   **Vietnamese Accuracy:** Fine-tuned `0.844` vs. Baseline `0.556`.
     *   The fine-tuned model showed excellent adherence to the output format (0 unparseable predictions compared to 8 for the baseline).
-    *   Detailed metrics and confusion matrices are available on the associated [W&B Project](https://wandb.ai/jooz-cave/sea-fin-multilingual-sentiment/reports/SEA-FinTech-Sentiment-Analysis--VmlldzoxMzA3NDE2NQ).
+    *   Detailed metrics and confusion matrices are available on the associated [W&B Project](https://wandb.ai/jooz-cave/sea-fin-multilingual-sentiment/workspace?nw=nwuserjtz18).
 
 ## Discussion & Future Work
 
