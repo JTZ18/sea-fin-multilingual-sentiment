@@ -1,0 +1,13 @@
+datasets==3.6.0
+ipykernel==6.29.5
+matplotlib==3.10.3
+nltk==3.9.1
+pandas==2.2.3
+seaborn==0.13.2
+unsloth==2025.5.9
+transformers==4.52.4
+vllm>=0.9.0.1
+synthetic-data-kit>=0.0.3
+openai>=1.83.0
+wandb==0.19.11
+scikit-learn==1.6.1

@@ -1,0 +1,10 @@
+.venv
+__pycache__
+results*
+unsloth_compiled_cache
+wandb
+.DS_Store
+.idea
+.vscode
+.ipynb_checkpoints
+.ipynb_checkpoints/
